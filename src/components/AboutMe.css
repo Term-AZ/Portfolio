@@ -1,0 +1,15 @@
+.AboutMeContainer{
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+.AboutMeMainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h3.WhoAmIDesc{
+    text-align: center;
+}

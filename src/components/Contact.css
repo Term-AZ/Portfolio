@@ -1,0 +1,66 @@
+.ContactContainer{
+    width: 100%;
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: space-between;
+    gap:50px;
+}
+.ContactLeft{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.ContactRight{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ContactGridBox{
+    display:grid;
+    grid-template-rows: 300px 300px ;
+    grid-template-columns: 300px 300px ;
+    grid-gap: 20px;
+    object-fit:contain;
+}
+form.ContactForm{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+input.NameInput{
+    
+    padding: 20px;
+    background-color: #e8e6e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+input.EmailInput{
+    
+    padding: 20px;
+    background-color: #e8e6e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+textarea.Email{
+    padding: 20px;
+    background-color: #e8e6e6;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button.SendEmail{
+    background-color: #da4ea2;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+}

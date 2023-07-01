@@ -1,0 +1,65 @@
+.HelloSection{
+    height:900;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.HelloContainer{
+    height:100%; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.HelloLeftContainer{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+.HelloRightContainer{
+    width:50%;
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+h1.HelloTitle{
+    font-size:50px;
+    height:5vh;
+    width:30vw;
+    padding-left: 10vw;
+}
+img.HelloDivider{
+    content: url("./images/line.png");
+    width: 40vw;
+    height: 1vh;
+    position:relative;
+    padding-left: 10vw;
+}
+.HelloDescContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+}
+h2.HelloDesc{
+    font-size: 20;
+    width:50vw;
+    padding-left: 10vw;
+    
+}
+img.HelloProfileImg{
+    content: url("./images/profileImg.jpg");
+    scale: 50%;
+    
+    position: relative;
+    border-radius: 50%;
+    top: -5vh;
+}
+
+h3.WhoAmI{
+    padding-left: 10vw;
+}

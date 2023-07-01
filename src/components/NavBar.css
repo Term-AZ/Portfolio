@@ -1,0 +1,23 @@
+.NavBar{
+    display:flex;
+    justify-content: center;
+}
+.NavContainer{
+    width:100%;
+
+    background-color: black;
+    display:flex;
+    align-items: center;
+
+}
+.NavLinks{
+
+}
+ul.NavList{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+li.NavListItem{
+    color: white;
+}
