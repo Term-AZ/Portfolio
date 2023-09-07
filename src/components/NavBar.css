@@ -1,6 +1,8 @@
 .NavBar{
     display:flex;
     justify-content: center;
+    position:fixed;
+    width:100vw;
 }
 .NavContainer{
     width:100%;

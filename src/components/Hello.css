@@ -1,6 +1,6 @@
 .HelloSection{
-    height:900;
-    width: 100%;
+    height:100vh;
+    width: 99vw;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -11,6 +11,7 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .HelloLeftContainer{
@@ -21,14 +22,14 @@
     gap:20px;
 }
 .HelloRightContainer{
-    width:50%;
+    width:40%;
     display:flex;
     justify-content: center;
     flex-direction: row;
 
 }
 h1.HelloTitle{
-    font-size:50px;
+    font-size:3em;
     height:5vh;
     width:30vw;
     padding-left: 10vw;
@@ -43,7 +44,7 @@ img.HelloDivider{
 .HelloDescContainer{
     display: flex;
     flex-direction: column;
-    justify-content:start;
+    justify-content:flex-start;
 }
 h2.HelloDesc{
     font-size: 20;
@@ -54,12 +55,19 @@ h2.HelloDesc{
 img.HelloProfileImg{
     content: url("./images/profileImg.jpg");
     scale: 50%;
-    
-    position: relative;
+    width:70vw;
+    height:70vw;
+  
     border-radius: 50%;
-    top: -5vh;
+    margin-bottom: 20%;;
 }
 
 h3.WhoAmI{
     padding-left: 10vw;
+}
+.HelloDescription{
+    display:flex;
+    flex-direction: column;
+    align-items: left;
+    margin-left: 20%;
 }

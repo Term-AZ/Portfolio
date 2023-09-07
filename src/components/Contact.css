@@ -40,7 +40,6 @@ input.NameInput{
     font-size: 20px;
 }
 input.EmailInput{
-    
     padding: 20px;
     background-color: #e8e6e6;
     border: none;
@@ -63,4 +62,17 @@ button.SendEmail{
     cursor: pointer;
     border-radius: 5px;
     padding: 20px;
+}
+img.gridImage{
+    scale: 100%;
+    resize:contain;
+    display: flex;
+    height:300px;
+    width:300px;
+
+}
+.gridContainer{
+    flex-direction: column;
+    align-items: left;
+    justify-content:flex-start
 }

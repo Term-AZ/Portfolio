@@ -45,7 +45,25 @@ const Contact = ()=>{
             </div>
             <div className='ContactRight'>
                 <div className='ContactGridBox'>
-                    <a href='https://github.com'> <img src={gh}></img></a>
+                    <div>
+                        <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
+                    </div>
+                    <div>
+                        ttt
+                    </div>
+                    <div>
+                        ttt
+                    </div>
+                    <div>
+                        ttt
+                    </div>
+                    {/* <div className='gridContainer'>
+                        <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
+                    </div>
+                    <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
+                    <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
+                    <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a> */}
+
                 </div>
             </div>    
         </div>
