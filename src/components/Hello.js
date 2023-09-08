@@ -5,14 +5,9 @@ import TrackVisibility from 'react-on-screen'
 import { TypeAnimation } from 'react-type-animation'
 import styled from 'styled-components'
 
-const Section = styled.div`
-    height:100vh;
-    scroll-snap-align: center;
-`
 
 const Hello =() =>{
     return(
-        <Section>
             <div className='HelloSection'>
             <NavBar/>
             <div className='HelloContainer'>
@@ -34,6 +29,7 @@ const Hello =() =>{
                                 speed={50}
                                 style={{ fontSize: '2em'}}
                                 repeat={Infinity}
+                                color={"white"}
                             
                             />
                     </div>
@@ -44,7 +40,6 @@ const Hello =() =>{
                 </div> */}
             </div>
             </div>
-        </Section>
     )
 }
 

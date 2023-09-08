@@ -6,7 +6,7 @@ const Project = (props) =>{
         <div className='ProjectGridObject'>
             <img className='ProjectImage' src={props.projectImage}></img>
             <h3 className='ProjectDesc'>{props.projectDesc}</h3>
-            <a href={props.projectLink}>{props.projectLink}</a>
+            <a className='ProjectLink' href={props.projectLink}>{props.projectLink}</a>
         </div>
     )
 }

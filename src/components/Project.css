@@ -5,14 +5,17 @@
     gap: 0px;
 }
 img.ProjectImage{
-    height:300px;
-    width: 500px;
+    height:50%;
+    width: 100%;
 }
 h3.ProjectDesc{
     font-size: 20px;
     padding: 0px;
+    color:white;
 }
-h3.ProjectLink{
-    font-size: 20px;
-    padding: 0px;
+a.ProjectLink{
+    width:100%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
 }

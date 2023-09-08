@@ -1,20 +1,17 @@
-.NavBar{
-    display:flex;
-    justify-content: center;
+nav.MainNav{
+    z-index: 1;
     position:fixed;
-    width:100vw;
-}
-.NavContainer{
-    width:100%;
-
+    height:8vh;
     background-color: black;
-    display:flex;
-    align-items: center;
-
+    width:100%;
 }
-.NavLinks{
-
+button.NavButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
+
 ul.NavList{
     list-style: none;
     display: flex;
@@ -23,3 +20,4 @@ ul.NavList{
 li.NavListItem{
     color: white;
 }
+
