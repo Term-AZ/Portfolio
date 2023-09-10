@@ -5,15 +5,17 @@ import Works from "./components/Works"
 import Contact from "./components/Contact"
 import AboutMe from "./components/AboutMe"
 import styled, { createGlobalStyle } from 'styled-components';
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-        <Hello/>
-        <Works/>
-        {/* <Contact/> */}
-    </div>
+    <BrowserRouter>
+      <NavBar/>
+      <Routes>
+        <Route path="/" element={<Hello/>}/>
+      </Routes>
+    </BrowserRouter>
   );
 }
 

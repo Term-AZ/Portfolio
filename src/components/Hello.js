@@ -8,8 +8,9 @@ import styled from 'styled-components'
 
 const Hello =() =>{
     return(
+        <div className='HomeBackground'>
             <div className='HelloSection'>
-            <NavBar/>
+            
             <div className='HelloContainer'>
                 <div className='HelloLeftContainer'>
 
@@ -28,18 +29,26 @@ const Hello =() =>{
                                 wrapper="span"
                                 speed={50}
                                 style={{ fontSize: '2em'}}
-                                repeat={Infinity}
-                                color={"white"}
-                            
+                                repeat={Infinity}                            
                             />
                     </div>
                 </div>
-            
-                {/* <div className='HelloRightContainer'>
-                    <img className='HelloProfileImg'></img>
-                </div> */}
+                <div className='HelloRightContainer'>
+                    <div className='spaceTaker'></div>
+                    
+                    <div className="ToLinkContainer">
+                        <button className='LinkButton'>Projects</button>
+                    </div>
+                    <div className="ToLinkContainer">
+                        <button className='LinkButton'>Contact Me</button>
+                    </div>
+                    <div className='HelloSiteGrid'>
+                        tt
+                    </div>
+                </div>
             </div>
-            </div>
+        </div>
+    </div>
     )
 }
 
