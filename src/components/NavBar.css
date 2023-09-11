@@ -15,9 +15,9 @@ button.NavButton{
 ul.NavList{
     list-style: none;
     display: flex;
-    gap: 40px;
 }
 li.NavListItem{
     color: white;
+    width:8%;
 }
 
