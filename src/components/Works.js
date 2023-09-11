@@ -10,6 +10,7 @@ const P = [[bookManagerImage,'FB2 Book Manager','https://github.com/Term-AZ/Book
 
 const Works = () =>{
     return(
+        <div className='WorksBackground'>
             <div className='WorksContainer'>
                 <div className='WorksTitleContainer'>
                     <h1 className ='WorksTitle'>
@@ -23,9 +24,9 @@ const Works = () =>{
                         )
                     })}
 
-                </div>
-                
+                </div> 
             </div>
+        </div>
     )
 }
 

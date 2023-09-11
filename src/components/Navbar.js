@@ -1,18 +1,20 @@
 import React from 'react'
 import "./NavBar.css"
+import { Link } from 'react-router-dom'
+
 
 const NavBar = () =>{
     return(
         <nav className='MainNav'>
             <ul className='NavList'>
                 <li className='NavListItem'>
-                    <a><button className='NavButton' onClick={()=>console.log("works")}>Top</button></a>
+                    <Link to='/'><button className='NavButton' onClick={()=>console.log("works")}>Home</button></Link>
                 </li>
                 <li className='NavListItem'>
-                    <a><button className='NavButton'>Projects</button></a>
+                    <Link to='/projects'><button className='NavButton'>Projects</button></Link>
                 </li>
                 <li className='NavListItem'>
-                    <a><button className='NavButton'>Contact</button></a>
+                    <Link to='/contact'><button className='NavButton'>Contact</button></Link>
                 </li>
             </ul>
         </nav>
