@@ -3,7 +3,7 @@
         {
             "name": "Group Pay",
             "completion_date":"September 2023",
-            "images":["./images/bookManagerImage.png"],
+            "images":["./images/gp1.png","./images/gp2.png","./images/gp3.png"],
             "video_links":[],
             "features":["User login","User authentication", "Graphs of history", "Ability to re-use groups for multiple transactions","Live updates on payment data"],
             "tech_used":["React", "Python", "FastAPI", "MYSQL", "JavaScript","HTML","CSS","DOCKER"],
