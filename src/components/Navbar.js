@@ -12,6 +12,7 @@ const NavBar = () =>{
                 <li className='NavListItem'>
                     <Link to='/'><button className='NavButton' onClick={()=>console.log("works")}>Home</button></Link>
                 </li>
+                
                 <li className='NavListItem' onMouseEnter={()=>setIsDropVisible(true)} onMouseLeave={()=>setIsDropVisible(false)}>
                     <Link to='/projects'>
                         <button className='NavButton'>
