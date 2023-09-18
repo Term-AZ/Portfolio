@@ -7,9 +7,6 @@ import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import data from './JsonFiles/projects.json'
 
-const P = [[bookManagerImage,'FB2 Book Manager','https://github.com/Term-AZ/Book-Manager'],['./images/ph.png','Group Pay','Test Link'],[pygameJumpKing,'PyGame Jump King Remake','https://github.com/Term-AZ/PythonJumpKingRemake'],]
-
-
 const Works = () =>{
     var programs = data.Programs || []
     var index=0
