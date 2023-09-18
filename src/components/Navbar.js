@@ -10,7 +10,7 @@ const NavBar = () =>{
         <nav className='MainNav'>
             <ul className='NavList'>
                 <li className='NavListItem'>
-                    <Link to='/Portfolio'><button className='NavButton' >Home</button></Link>
+                    <Link to='/Portfolio/'><button className='NavButton' >Home</button></Link>
                 </li>
                 <li className='NavListItem' onMouseEnter={()=>setIsDropVisible(true)} onMouseLeave={()=>setIsDropVisible(false)}>
                     <Link to='/projects'>

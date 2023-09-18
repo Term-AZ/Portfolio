@@ -17,7 +17,7 @@ const Hello =() =>{
             <div className='HelloContainer'>
                 <div className='HelloLeftContainer'>
 
-                    <h1 className ='HelloTitle'>Hello, I'm Augusts </h1>
+                    <h1 className ='HelloTitle'>Hello, I'm Augusts 2 </h1>
                     <div classname='HelloDescContainer'>
                         <img className='HelloDivider'></img>
                     </div>
