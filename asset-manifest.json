@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c0804a96.css",
+    "main.js": "/Portfolio/static/js/main.bb755be3.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/bookManagerImage.png": "/Portfolio/static/media/bookManagerImage.b372c16226b1de0a0ffc.png",
+    "static/media/bookmanager2.png": "/Portfolio/static/media/bookmanager2.3291e16685992e3b35ce.png",
+    "static/media/bookmanager3.png": "/Portfolio/static/media/bookmanager3.356f35635e7c3212bb4a.png",
+    "static/media/profileImg.jpg": "/Portfolio/static/media/profileImg.842136ca3ae78537423f.jpg",
+    "static/media/gp3.png": "/Portfolio/static/media/gp3.a3ca9a1c36bfab4f9cd5.png",
+    "static/media/gp2.png": "/Portfolio/static/media/gp2.e0ed476e2a30652a8dcc.png",
+    "static/media/gp1.png": "/Portfolio/static/media/gp1.54f4506b5ec97e9e8586.png",
+    "static/media/linkedin.png": "/Portfolio/static/media/linkedin.0b9b3d5430ec7fdfcd07.png",
+    "static/media/pygameJumpKingGame.png": "/Portfolio/static/media/pygameJumpKingGame.e6969fbd1941e7c3708b.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c0804a96.css.map": "/Portfolio/static/css/main.c0804a96.css.map",
+    "main.bb755be3.js.map": "/Portfolio/static/js/main.bb755be3.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0804a96.css",
+    "static/js/main.bb755be3.js"
+  ]
+}
