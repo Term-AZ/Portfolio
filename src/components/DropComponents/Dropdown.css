@@ -1,0 +1,27 @@
+.DropDown{
+    width:100%;
+    background-color: black;
+}
+ul.DropDownList{
+    width:100%;
+    list-style: none;
+    padding: unset;
+    margin: unset;
+}
+li.DropDownListItem{
+    width:80%;
+    padding: 14px;
+    transition: all linear 0.3s;
+    color:white;
+  }
+li.DropDownListItem:hover {
+    background: gray;
+    cursor: pointer;
+    color: #fff;
+    display:block!important;
+  }
+p.DropDownLinkText{
+    color:white;
+    height:100%;
+    width:100%;
+}

@@ -1,3 +1,9 @@
+.HomeBackground{
+    background-size: cover;
+    background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    min-width: 900px;
+}
+
 .HelloSection{
     height:100vh;
     width: 100%;
@@ -21,18 +27,21 @@
     justify-content: center;
     flex-direction: column;
     gap:20px;
+    padding-top: 15%;
 }
 .HelloRightContainer{
-    width:40%;
-    display:flex;
+    width:45%;
+    height:90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
 
 }
 h1.HelloTitle{
     font-size:3em;
     height:5vh;
-    width:30vw;
+    width:50vw;
     padding-left: 10vw;
     color:white;
 }
@@ -52,6 +61,7 @@ h2.HelloDesc{
     font-size: 20;
     width:50vw;
     padding-left: 10vw;
+    height:fit-content
     
 }
 img.HelloProfileImg{
@@ -59,7 +69,6 @@ img.HelloProfileImg{
     scale: 50%;
     width:70vw;
     height:70vw;
-  
     border-radius: 50%;
     margin-bottom: 20%;;
 }
@@ -73,5 +82,62 @@ h3.WhoAmI{
     align-items: left;
     margin-left: 20%;
     color:white;
+    width:80%;
+    height:50%;
+}
+.ToLinkContainer{
+    width:80%;
+    height:8%;
+    margin:30px;
+    /* background-color: linear-gradient(90deg, rgb(66, 0, 136) 0%, rgb(64, 23, 85) 35%, rgb(163, 55, 193) 100%); */
+    background-color: transparent;
+    border: 1px ;
+    border-color: black;
+}
+.spaceTaker{
+    height: 20vw;
+    width:100%;
+}
+button.LinkButton{
+    height:90%;
+    width:100%;
+    border-radius: 25px;
+    cursor: pointer;
+    border:none;
+    /* background-color: black; */
+    color:white;
+    background-blend-mode: difference;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    /* background: linear-gradient(90deg, rgb(66, 0, 136) 0%, rgb(64, 23, 85) 35%, rgb(78, 22, 93) 100%); */
+}
+.OverGridContainer{
+    height:10vw;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HelloSiteGrid{
+    width:50%;
+    height:60%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 90%;
+    gap: 2vw;
+}
+.InGridContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+Button.ImageButton{
+    width:50%;
+    height:100%;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+img.ButtonImage{
+    height:100%;
     width:100%;
 }
