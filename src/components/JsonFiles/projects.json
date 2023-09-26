@@ -5,11 +5,11 @@
             "completion_date":"September 2023",
             "images":["./images/gp1.png","./images/gp2.png","./images/gp3.png"],
             "video_links":[],
-            "features":["User login","User authentication", "Graphs of history", "Ability to re-use groups for multiple transactions","Live updates on payment data"],
+            "features":["User login","User authentication", "Graphics", "Payment management","Group management"],
             "tech_used":["React", "Python", "FastAPI", "MYSQL", "JavaScript","HTML","CSS","DOCKER"],
             "githublink":"",
             "date_completed":"September 2023",
-            "description":"dsfsafsdaf  sfgas gf kfmkdsagm kdfmgkdm ldf,gl ,sd asldf,gfldgldfg ldfgldsgk",
+            "description":"Group pay is a transaction management web service that allows users to easily track who owes them, who do they owe, and the transaction this is for while simultaneously providing visual representation of recent spendings. Users first must make account with a email, user name, and password. Then make a group and add other users to that group by using an email. Group owners can edit the groups they own or leave the groups they are apart of. Finally create a transaction and select the group you wish the transaction to be linked to and how much each group members owes, default is 0. Users part of the transaction group can then see the transaction and set is as payed when they have payed the transaction owner.",
             "what_am_i":"Transaction Manager"
         },{
             "name": "Fb2 Book Manager",
