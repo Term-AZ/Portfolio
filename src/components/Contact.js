@@ -49,12 +49,12 @@ const Contact = ()=>{
                 </div>
                 <div className='ContactRight'>
                     <div className='ContactGridBox'>
-                        <div>
+
                             <a href='https://github.com/Term-AZ'> <img className='gridImage'src={githublogo}></img></a>
-                        </div>
-                        <div>
+
+
                             <a href='https://www.linkedin.com/in/augusts-zilakovs-118083187/'> <img className='gridImage'src={ln}></img></a>
-                        </div>
+
                         {/* <div className='gridContainer'>
                             <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
                         </div>

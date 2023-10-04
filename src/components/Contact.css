@@ -1,8 +1,8 @@
 .ContactBackground{
     background-size: cover;
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    height:100vh;
-    min-width:fit-content;
+    height:fit-content;
+    min-height: 100vh;
     width:100vw;
 }
 .ContactContainer{
@@ -12,7 +12,6 @@
     gap:50px;
     height:95vh;
     padding-top: 5vh;
-
 }
 .ContactLeft{
     width:50%;
@@ -37,6 +36,7 @@
     grid-gap: 5vw;
     object-fit:contain;
 }
+
 form.ContactForm{
     width: 80%;
     display: flex;
@@ -81,9 +81,30 @@ img.gridImage{
     display: flex;
     height:100%;
     width:100%;
-
 }
 
 h1.ContactTitle{
     color:white;
+}
+
+@media screen and (max-width:600px){
+    .ContactContainer{
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    .ContactLeft{
+        width:100%;
+    }
+    .ContactRight{
+        width:100%;
+    }
+    .ContactGridBox{
+        grid-template-columns:100px 100px ;
+        grid-template-rows: 100px ;
+    }
+    img.gridImage{
+        height:80%;
+        width:80%;
+    }
 }
