@@ -9,12 +9,13 @@ img.ProjectProjectImage{
     width: 100%;
 }
 h3.ProjectDesc{
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 0px;
     color:white;
     margin:10px;
 }
 a.ProjectLink{
+    font-size: 1em;
     width:100%;
     color: white;
     text-decoration: none;
