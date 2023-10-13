@@ -21,6 +21,10 @@ ul.NavList{
 li.NavListItem{
     color: white;
     min-width:fit-content;
-    width:8%;
+    width:6%;
 }
 
+a.DownloadButton{
+    text-decoration: none;
+    color:white;
+}

@@ -43,25 +43,14 @@ const Contact = ()=>{
                         <input placeholder='Email' className='EmailInput' name='email'></input>
                         <textarea placeholder='Message Here' className='Email' rows={10} name='message'></textarea>
                         <button className='SendEmail' onClick={handleSubmit}>Send</button>
-                        {success &&
-                            "Your message has been sent. I'll get back to you soon"}
+                        {success ? <p className='Success'>Your message has been sent</p>:<div></div>}
                     </form>
                 </div>
                 <div className='ContactRight'>
                     <div className='ContactGridBox'>
 
-                            <a href='https://github.com/Term-AZ'> <img className='gridImage'src={githublogo}></img></a>
-
-
-                            <a href='https://www.linkedin.com/in/augusts-zilakovs-118083187/'> <img className='gridImage'src={ln}></img></a>
-
-                        {/* <div className='gridContainer'>
-                            <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
-                        </div>
-                        <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
-                        <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a>
-                        <a href='https://github.com/Term-AZ'> <img className='gridImage'src={gh}></img></a> */}
-
+                            <a href='https://github.com/Term-AZ' target="_blank"> <img className='gridImage'src={githublogo}></img></a>
+                            <a href='https://www.linkedin.com/in/augusts-zilakovs-118083187/' target="_blank"> <img className='gridImage'src={ln}></img></a>
                     </div>
                 </div>    
             </div>
