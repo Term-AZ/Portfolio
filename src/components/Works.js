@@ -3,7 +3,7 @@ import "./Works.css"
 import Project from './Project'
 import bookManagerImage from "./images/bookManagerImage.png"
 import pygameJumpKing from "./images/pygameJumpKingGame.png"
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { useEffect } from 'react'
 import data from './JsonFiles/projects.json'
 
@@ -20,12 +20,10 @@ const Works = () =>{
                 </div>
                 <div className='ProjectContainer'>
                     {programs.map((i)=>{
-                        // console.log("waka"+i.images[0])
                         return(
-                            <Link to={'/projects/'+i.name+"/"+index++} style={{ textDecoration: 'none' }}><Project whatamI={i.what_am_i} projectImage={require(`${i.images[0]}`)} projectDesc={i.name} projectLink={i.githublink}></Project></Link>
+                            <div className="MainLink"><Link  to={'/projects/'+i.name+"/"+index++} style={{ textDecoration: 'none' }}><Project whatamI={i.what_am_i} projectImage={require(`${i.images[0]}`)} projectDesc={i.name} projectLink={i.githublink}></Project></Link></div>
                         )
                     })}
-
                 </div> 
             </div>
         </div>

@@ -1,12 +1,11 @@
 .HomeBackground{
     background-size: cover;
     background: linear-gradient(120deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    min-width: 900px;
 }
 
 .HelloSection{
     height:100vh;
-    width: 100%;
+    width: 100vw;
     display:flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,8 +17,8 @@
     flex-direction: row;
     justify-content: space-between;
     width:100%;
-
 }
+
 
 .HelloLeftContainer{
     width:50%;
@@ -31,19 +30,21 @@
 }
 .HelloRightContainer{
     width:45%;
-    height:90%;
+    height:100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
 }
+
 h1.HelloTitle{
     font-size:3em;
-    height:5vh;
+    height:fit-content;
     width:50vw;
     padding-left: 10vw;
     color:white;
+    
 }
 img.HelloDivider{
     content: url("./images/line.png");
@@ -95,7 +96,7 @@ h3.WhoAmI{
     border-color: black;
 }
 .spaceTaker{
-    height: 20vw;
+    height: 10vw;
     width:100%;
 }
 button.LinkButton{
@@ -129,6 +130,8 @@ button.LinkButton{
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width:100px;
+    min-height:50px;
 }
 Button.ImageButton{
     width:50%;
@@ -140,4 +143,32 @@ Button.ImageButton{
 img.ButtonImage{
     height:100%;
     width:100%;
+}
+
+@media screen and (max-width: 900px){
+    .HelloContainer{
+        flex-direction: column;
+    }
+    .HelloLeftContainer{
+        width: 100%;
+    }
+    h1.HelloTitle{
+        width:fit-content;
+    }
+    .HelloRightContainer{
+        width: 100%;
+    }
+    .HelloDescription{
+        margin:10%;
+    }
+    .ToLinkContainer{
+        width:50%;
+        height:10%;
+    }
+    img.HelloDivider{
+        width:70vw;
+    }
+    .spaceTaker{
+        height:0px;
+    }
 }

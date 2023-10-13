@@ -5,20 +5,30 @@
     gap: 0px;
 }
 img.ProjectProjectImage{
-    height: 18.5vw;
-    width: 100%;
+    height: 300px;
+    width: 30vw;
+}
+@media screen and (max-width: 1100px){
+    img.ProjectProjectImage{
+        height: 30vw;
+        width: 70%;
+    }
 }
 h3.ProjectDesc{
-    font-size: 20px;
+    font-size: 1.2em;
     padding: 0px;
     color:white;
     margin:10px;
 }
 a.ProjectLink{
+    font-size: 0.6em;
     width:100%;
     color: white;
     text-decoration: none;
     text-align: center;
+}
+a.MainLink{
+    height:fit-content;
 }
 p.whatami{
     color:white;

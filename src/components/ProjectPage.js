@@ -11,11 +11,11 @@ const ProjectPage = (props) =>{
     return(
         <div className='ProjectPageBackGround'>
             <div className='MainProjectContainerBackground'>
+                <div className='ProjectTitleContainer'>
+                    {params.projectname}
+                </div>
                 <div className='MainProjectContainer'>
                     <div className='ProjectLeftContainer'>
-                        <div className='ProjectTitleContainer'>
-                            {params.projectname}
-                        </div>
                         <div className='ProjectGitHubLinkContainer'>
                             Completed: 
                             {" "+project.date_completed}<br></br>
@@ -67,24 +67,8 @@ const ProjectPage = (props) =>{
                                     </div>
                                 )
                             })}
-
-
-                            {/* <div className='InvImageContainer'>
-                                <img className="ProjectImage"src={ph}></img>
-                            </div>
-                            <div className='InvImageContainer'>
-                                <img className="ProjectImage"src={ph}></img>
-                            </div>
-                            <div className='InvImageContainer'>
-                                <img className="ProjectImage"src={ph}></img>
-                            </div>
-                            <div className='InvImageContainer'>
-                                <img className="ProjectImage"src={ph}></img>
-                            </div> */}
                         </div>
-                        <div className='ProjectLinkContainer'>
 
-                        </div>
                     </div>
                 </div>
             </div>

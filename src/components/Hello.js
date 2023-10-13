@@ -18,7 +18,7 @@ const Hello =() =>{
                 <div className='HelloLeftContainer'>
 
                     <h1 className ='HelloTitle'>Hello, I'm Augusts</h1>
-                    <div classname='HelloDescContainer'>
+                    <div className='HelloDescContainer'>
                         <img className='HelloDivider'></img>
                     </div>
                     <div className='HelloDescription'>

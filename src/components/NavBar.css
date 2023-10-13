@@ -3,6 +3,7 @@ nav.MainNav{
     position:fixed;
     height:6vh;
     background-color: black;
+    min-width:100vw;
     width:100%;
 }
 button.NavButton{
@@ -15,9 +16,15 @@ button.NavButton{
 ul.NavList{
     list-style: none;
     display: flex;
+    padding-left:5%;   
 }
 li.NavListItem{
     color: white;
-    width:8%;
+    min-width:fit-content;
+    width:6%;
 }
 
+a.DownloadButton{
+    text-decoration: none;
+    color:white;
+}
