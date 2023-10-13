@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.cbf44464.css",
-    "main.js": "/Portfolio/static/js/main.c1da66f3.js",
+    "main.js": "/Portfolio/static/js/main.3973988d.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bookManagerImage.png": "/Portfolio/static/media/bookManagerImage.b372c16226b1de0a0ffc.png",
     "static/media/bookmanager2.png": "/Portfolio/static/media/bookmanager2.3291e16685992e3b35ce.png",
@@ -14,11 +14,11 @@
     "static/media/pygameJumpKingGame.png": "/Portfolio/static/media/pygameJumpKingGame.e6969fbd1941e7c3708b.png",
     "index.html": "/Portfolio/index.html",
     "main.cbf44464.css.map": "/Portfolio/static/css/main.cbf44464.css.map",
-    "main.c1da66f3.js.map": "/Portfolio/static/js/main.c1da66f3.js.map",
+    "main.3973988d.js.map": "/Portfolio/static/js/main.3973988d.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cbf44464.css",
-    "static/js/main.c1da66f3.js"
+    "static/js/main.3973988d.js"
   ]
 }
