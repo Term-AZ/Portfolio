@@ -26,7 +26,9 @@ const Hello =() =>{
                                 sequence={[
                                     'I am a third year software engineering student',
                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                    'I am a developer',
+                                    'I am a full stack developer',
+                                    1000,
+                                    'I am a engineer',
                                     1000,
                                 ]}
                                 wrapper="span"

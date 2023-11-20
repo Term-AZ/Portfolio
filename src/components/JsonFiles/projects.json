@@ -1,38 +1,59 @@
 {
     "Programs":[
         {
+            "type":"Project",
             "name": "Group Pay",
             "completion_date":"September 2023",
             "images":["./images/gp1.png","./images/gp2.png","./images/gp3.png"],
             "video_links":[],
-            "features":["User login","User authentication", "Graphics", "Payment management","Group management"],
+            "features":["Functional signup and login system", "User authentication using Session Cookies", "Live updates for users", "User to User interaction (Creating groups with other users)" ,"Data graphics", "Routing", "30+ API Endpoints"],
             "tech_used":["React", "Python", "FastAPI", "MYSQL", "JavaScript","HTML","CSS","DOCKER"],
             "githublink":"https://github.com/Term-AZ/GroupPay",
             "date_completed":"September 2023",
             "description":"Group pay is a transaction management web service that allows users to easily track who owes them, who do they owe, and the transaction this is for while simultaneously providing visual representation of recent spendings. Users first must make account with a email, user name, and password. Then make a group and add other users to that group by using an email. Group owners can edit the groups they own or leave the groups they are apart of. Finally create a transaction and select the group you wish the transaction to be linked to and how much each group members owes, default is 0. Users part of the transaction group can then see the transaction and set is as payed when they have payed the transaction owner.",
-            "what_am_i":"Transaction Manager"
+            "what_am_i":"Transaction Manager",
+            "future_steps":["Routing Updates","Better mobile support", "Email verification"]
         },{
+            "type":"Project",
             "name": "Fb2 Book Manager",
             "completion_date":"",
             "images":["./images/bookManagerImage.png","./images/bookmanager2.png","./images/bookmanager3.png"],
             "video_links":[],
-            "features":["Automatic book sorting by author, genre, title, ect","Can add both (zipped and unzipped)folders and files", "Live editing of the fb2 files","Genre management","Can edit batches of files", "Multiple views; List and Tree View", "Zip and Unzip Features", "Scalable UI"],
+            "features":["Automatic book sorting by author, genre, title, ect", "Automatic file scanning","Zipped and unZipped folder reading", "FB2 XML book editing", "Genre customization", "Batch editing", "Multiple views; List and Tree View", "File saving", "Scalable UI", "Search for added files", "File locating", "Image uploading and saving", "Efficient Image storage", "Failure Notification"],
             "tech_used":["C#", "SQLite","Github"],
             "githublink":"https://github.com/Term-AZ/Book-Manager",
             "date_completed":"July 2023",
             "description":"FB2 Book Manager is a book managment software which allows users to efficently manage and edit fb2 files. FB2 Book Manager functions similarly to a file manager. The user can add a folder of files. The program then reads through all of those files and adds their informaion to a table. The program then organizes the file data and displays it in a convenient manner. The user is also able to edit the details of each file and then export the edited version as a html.",
-            "what_am_i":"Book Manager"
-        },{
+            "what_am_i":"Book Manager",
+            "future_steps":["View swapping optimization", "Function refactoring"]
+        },
+        {
+            "type" : "Contribution",
+            "name" : "Forged Alliance Forever",
+            "completion_date": "",
+            "images":["./images/faf_logo.png", "./images/supercommander_cover.jpg"],
+            "video_links":[],
+            "features":["Reduced navagation mesh generation time by 10%","Worked on projectile physics","Worked on 20+ game unit updates", "Updated visuals and game animations"],
+            "tech_used":["Lua"],
+            "githublink":"https://github.com/FAForever/fa",
+            "date_completed":"",
+            "description":"Forged Alliacne Forever is a community made and driven client for the 2007 real time strategy game Supreme Commander Forged Alliance",
+            "what_am_i":"Game Client",
+            "future_steps":[]
+        },
+        {
+            "type":"Project",
             "name": "Jump King Pygame Remake",
             "completion_date":"",
             "images":["./images/pygameJumpKingGame.png"],
             "video_links":["https://www.youtube.com/embed/Q1y4anQvirg?si=oDAPFNaJtnUVp7Gw"],
-            "features":["Utilizes maps in tiled format","Basic physics system", "Basic character customization","Dynamic scrolling"],
+            "features":["Tiled map support", "Character customization","Basic physics", "Level selection" ,"Vertical scrolling"],
             "tech_used":["Python","Pygame","Tiled","Github"],
             "githublink":"https://github.com/Term-AZ/PythonJumpKingRemake",
             "date_completed":"April 2023",
-            "description":"This is a remake of the popular video game 'Jump King' but using pygame for the game engine. ",
-            "what_am_i":"Video Game"
+            "description":"This is a remake of the popular video game 'Jump King' using Pygame as the game engine. ",
+            "what_am_i":"Video Game",
+            "future_steps":[]
         }
     ]
 }

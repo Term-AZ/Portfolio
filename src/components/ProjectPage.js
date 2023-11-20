@@ -1,9 +1,8 @@
 import React from 'react'
 import './ProjectPage.css'
-import ph from "./images/ph.png"
 import { useParams } from 'react-router-dom'
 import data from './JsonFiles/projects.json'
-import s from './images/bookManagerImage.png'
+
 
 const ProjectPage = (props) =>{
     const params = useParams()
@@ -12,22 +11,27 @@ const ProjectPage = (props) =>{
         <div className='ProjectPageBackGround'>
             <div className='MainProjectContainerBackground'>
                 <div className='ProjectTitleContainer'>
-                    {params.projectname}
+                    <h1>{params.projectname}</h1>
+                </div>
+                <div className='ProjectTypeContainer'>
+                    <p>{project.type}</p>
                 </div>
                 <div className='MainProjectContainer'>
                     <div className='ProjectLeftContainer'>
                         <div className='ProjectGitHubLinkContainer'>
+                            <p>
                             Completed: 
                             {" "+project.date_completed}<br></br>
                             <a className='LinkTag'style={{ textDecoration: 'none' }} href={project.githublink}>{project.githublink}</a>
+                            </p>
                         </div>
                         
                         <div className='ProjectDescriptionContainer'>
-                            {project.description}
+                            <p>{project.description}</p>
                         </div>
                         <div className='ProjectFeatures'>
                             <p className='ProjectTitleDefault'>
-                                Project Features:
+                                {project.type=="Project"? <div>Project Features</div>: <div>Contributions</div> }
                             </p>
                             <ul>
                                 {project.features.map((i)=>{
@@ -48,6 +52,22 @@ const ProjectPage = (props) =>{
                                     )
                                 })}
                             </ul>
+                        </div>
+                        <div className = 'ProjectFeatures'>
+                            {project.future_steps.length >0 ? 
+                                <div>
+                                <p className='ProjectTitleDefault'>
+                                    Future Updates:
+                                </p>
+                                <div className="FutureStepsDescription">
+                                    <ul>
+                                        {project.future_steps.map((i)=>{
+                                            return(
+                                                <li>{i}</li>
+                                            )
+                                        })}
+                                    </ul>
+                                </div>  </div> : <div/> } 
                         </div>
                     </div>
                     <div className='ProjectRightContainer'>
