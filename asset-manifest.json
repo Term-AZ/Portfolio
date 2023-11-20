@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1543dc72.css",
-    "main.js": "/Portfolio/static/js/main.c24f4118.js",
+    "main.css": "/Portfolio/static/css/main.c67c5b27.css",
+    "main.js": "/Portfolio/static/js/main.0a8abe68.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/bookManagerImage.png": "/Portfolio/static/media/bookManagerImage.b372c16226b1de0a0ffc.png",
     "static/media/bookmanager2.png": "/Portfolio/static/media/bookmanager2.3291e16685992e3b35ce.png",
@@ -13,14 +13,15 @@
     "static/media/augusts_zilakovs_resume.pdf": "/Portfolio/static/media/augusts_zilakovs_resume.33222793cc9889a5993a.pdf",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.0b9b3d5430ec7fdfcd07.png",
     "static/media/pygameJumpKingGame.png": "/Portfolio/static/media/pygameJumpKingGame.e6969fbd1941e7c3708b.png",
+    "static/media/supercommander_cover.jpg": "/Portfolio/static/media/supercommander_cover.08d5112b236808024200.jpg",
     "static/media/faf_logo.png": "/Portfolio/static/media/faf_logo.abcb43e35722472f8089.png",
     "index.html": "/Portfolio/index.html",
-    "main.1543dc72.css.map": "/Portfolio/static/css/main.1543dc72.css.map",
-    "main.c24f4118.js.map": "/Portfolio/static/js/main.c24f4118.js.map",
+    "main.c67c5b27.css.map": "/Portfolio/static/css/main.c67c5b27.css.map",
+    "main.0a8abe68.js.map": "/Portfolio/static/js/main.0a8abe68.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1543dc72.css",
-    "static/js/main.c24f4118.js"
+    "static/css/main.c67c5b27.css",
+    "static/js/main.0a8abe68.js"
   ]
 }
