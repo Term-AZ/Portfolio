@@ -20,7 +20,7 @@
             "images":["./images/bookManagerImage.png","./images/bookmanager2.png","./images/bookmanager3.png"],
             "video_links":[],
             "features":["Automatic book sorting by author, genre, title, ect", "Automatic file scanning","Zipped and unZipped folder reading", "FB2 XML book editing", "Genre customization", "Batch editing", "Multiple views; List and Tree View", "File saving", "Scalable UI", "Search for added files", "File locating", "Image uploading and saving", "Efficient Image storage", "Failure Notification"],
-            "tech_used":["C#", "SQLite","Github"],
+            "tech_used":["C#", "SQLite"],
             "githublink":"https://github.com/Term-AZ/Book-Manager",
             "date_completed":"July 2023",
             "description":"FB2 Book Manager is a book managment software which allows users to efficently manage and edit fb2 files. FB2 Book Manager functions similarly to a file manager. The user can add a folder of files. The program then reads through all of those files and adds their informaion to a table. The program then organizes the file data and displays it in a convenient manner. The user is also able to edit the details of each file and then export the edited version as a html.",

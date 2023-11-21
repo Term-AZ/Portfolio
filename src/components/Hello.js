@@ -1,13 +1,10 @@
 import React from 'react'
 import "./Hello.css"
-import NavBar from "./Navbar"
-import TrackVisibility from 'react-on-screen'
 import { TypeAnimation } from 'react-type-animation'
-import styled from 'styled-components'
-import gh from "./images/GH.png"
 import ln from "./images/linkedin.png"
 import githublogo from "./images/githublogo.png"
 import { Link } from 'react-router-dom'
+import AboutMe from './AboutMe'
 
 const Hello =() =>{
     return(
@@ -72,6 +69,7 @@ const Hello =() =>{
                 </div>
             </div>
         </div>
+        <AboutMe/>
     </div>
     )
 }

@@ -1,15 +1,32 @@
+h2{
+    color:white;
+    text-align: left;
+    font-size: 3em;
+}
+p.AboutMeDescription{
+    color:white;
+    text-align: left;
+    font-size: 1.5em;
+}
 .AboutMeContainer{
-    height: 100vh; 
+    height:fit-content;
+    width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center; 
-}
+    justify-content: center;
+} 
 .AboutMeMainContainer{
+    height:fit-content;
+    width:100%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
-h3.WhoAmIDesc{
-    text-align: center;
+.WhoAmI{
+    width:50%;
 }
+
+
+
+

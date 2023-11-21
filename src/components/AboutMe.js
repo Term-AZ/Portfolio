@@ -6,18 +6,18 @@ const AboutMe = ()=>{
         <div className='AboutMeContainer'>
             <div className='AboutMeMainContainer'>
                 <div className='WhoAmI'>
-                    <h3 className="WhoAmIDesc">My name is Augusts Zilakovs. I am third year software student who is passionate about back end development
-                        API's, and data analysis. I first started coding when I took my first computer science class in fifth grade, and I instantly knew
-                        that I want to work in the tech industry. 
-                     </h3>
+                    <h2>
+                        Who Am I?
+                    </h2>
+                    <p className='AboutMeDescription'>
+                        My name is Augusts Zilakovs, I am third year software engineering student at the Univeristy of Western Ontario.
+                        I keen interest in creating seamless and user-friendly digital experiences, 
+                        I thrive on turning innovative ideas into robust, scalable, and efficient web applications.
+                    </p>
                 </div>
-                <div className='Skills'>
-                    <div className='languages'>
+                <div className="skill_container">
 
-                    </div>
-                    <div className = 'softSkills'>
 
-                    </div>
                 </div>
             </div>
         </div>

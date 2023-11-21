@@ -17,6 +17,7 @@
 .WorksTitleContainer{
     align-items: center;
     width:50%;
+    height:fit-content
 }
 
 .ProjectContainer{
@@ -47,6 +48,7 @@ a.ProjectLink{
     .ProjectContainer{
         display:block;
     }
+
 }
 
 
