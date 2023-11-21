@@ -28,7 +28,7 @@
             "future_steps":["View swapping optimization", "Function refactoring"]
         },
         {
-            "type" : "Contribution",
+            "type" : "Open Source Contribution",
             "name" : "Forged Alliance Forever",
             "completion_date": "",
             "images":["./images/faf_logo.png", "./images/supercommander_cover.jpg"],

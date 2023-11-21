@@ -9,7 +9,7 @@
 }
 
 .HelloSection{
-    height:100vh;
+    height:80vh;
     width: 100%;
     display:flex;
     flex-direction: column;
@@ -153,6 +153,8 @@ img.ButtonImage{
 @media screen and (max-width: 900px){
     .HelloContainer{
         flex-direction: column;
+        height: fit-content;
+        min-height: 100vhj;
     }
     .HelloLeftContainer{
         width: 100%;
@@ -168,12 +170,19 @@ img.ButtonImage{
     }
     .ToLinkContainer{
         width:50%;
-        height:10%;
+        height:5vh;
     }
     img.HelloDivider{
         width:70vw;
     }
     .spaceTaker{
         height:0px;
+    }
+    .OverGridContainer{
+        height: fit-content;
+        min-height:5vh
+    }
+    .HelloSiteGrid{
+        height:fit-content
     }
 }
