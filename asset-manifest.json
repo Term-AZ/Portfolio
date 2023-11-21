@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.c67c5b27.css",
-    "main.js": "/Portfolio/static/js/main.0a8abe68.js",
+    "main.css": "/Portfolio/static/css/main.edf399f8.css",
+    "main.js": "/Portfolio/static/js/main.fa5dc682.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/profile_image.jpg": "/Portfolio/static/media/profile_image.7301e30efdf076aaaea6.jpg",
+    "static/media/profile_image2.jpg": "/Portfolio/static/media/profile_image2.8127d169bae126117520.jpg",
     "static/media/bookManagerImage.png": "/Portfolio/static/media/bookManagerImage.b372c16226b1de0a0ffc.png",
     "static/media/bookmanager2.png": "/Portfolio/static/media/bookmanager2.3291e16685992e3b35ce.png",
     "static/media/bookmanager3.png": "/Portfolio/static/media/bookmanager3.356f35635e7c3212bb4a.png",
@@ -16,12 +18,12 @@
     "static/media/supercommander_cover.jpg": "/Portfolio/static/media/supercommander_cover.08d5112b236808024200.jpg",
     "static/media/faf_logo.png": "/Portfolio/static/media/faf_logo.abcb43e35722472f8089.png",
     "index.html": "/Portfolio/index.html",
-    "main.c67c5b27.css.map": "/Portfolio/static/css/main.c67c5b27.css.map",
-    "main.0a8abe68.js.map": "/Portfolio/static/js/main.0a8abe68.js.map",
+    "main.edf399f8.css.map": "/Portfolio/static/css/main.edf399f8.css.map",
+    "main.fa5dc682.js.map": "/Portfolio/static/js/main.fa5dc682.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c67c5b27.css",
-    "static/js/main.0a8abe68.js"
+    "static/css/main.edf399f8.css",
+    "static/js/main.fa5dc682.js"
   ]
 }
