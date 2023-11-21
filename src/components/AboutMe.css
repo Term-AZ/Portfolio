@@ -65,12 +65,13 @@ p.AboutMeDescription{
 }
 .languages_container{
     width:60%;
-    height: 200px;
+    min-height: 200px;
+    height:fit-content;
 }
 .skill_list{
     display: flex;
     flex-direction: row;
-
+    flex-wrap: wrap;
     gap:5vw
 }
 
