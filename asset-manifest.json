@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.edf399f8.css",
-    "main.js": "/Portfolio/static/js/main.9b787f7f.js",
+    "main.css": "/Portfolio/static/css/main.5ad12abc.css",
+    "main.js": "/Portfolio/static/js/main.30387be1.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/profile_image.jpg": "/Portfolio/static/media/profile_image.7301e30efdf076aaaea6.jpg",
     "static/media/profile_image2.jpg": "/Portfolio/static/media/profile_image2.8127d169bae126117520.jpg",
@@ -13,17 +13,20 @@
     "static/media/gp2.png": "/Portfolio/static/media/gp2.e0ed476e2a30652a8dcc.png",
     "static/media/augusts_zilakovs_resume.pdf": "/Portfolio/static/media/augusts_zilakovs_resume.d77f29f0b0d0da4d3c0a.pdf",
     "static/media/gp1.png": "/Portfolio/static/media/gp1.54f4506b5ec97e9e8586.png",
+    "static/media/outsider_trading2.jpg": "/Portfolio/static/media/outsider_trading2.e0538566dc433fe78af8.jpg",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.0b9b3d5430ec7fdfcd07.png",
+    "static/media/outsider_trading1.jpg": "/Portfolio/static/media/outsider_trading1.663302da319fe9e8132a.jpg",
     "static/media/pygameJumpKingGame.png": "/Portfolio/static/media/pygameJumpKingGame.e6969fbd1941e7c3708b.png",
+    "static/media/outsider_trading3.jpg": "/Portfolio/static/media/outsider_trading3.dc9e5663eeb337e70e94.jpg",
     "static/media/supercommander_cover.jpg": "/Portfolio/static/media/supercommander_cover.08d5112b236808024200.jpg",
     "static/media/faf_logo.png": "/Portfolio/static/media/faf_logo.abcb43e35722472f8089.png",
     "index.html": "/Portfolio/index.html",
-    "main.edf399f8.css.map": "/Portfolio/static/css/main.edf399f8.css.map",
-    "main.9b787f7f.js.map": "/Portfolio/static/js/main.9b787f7f.js.map",
+    "main.5ad12abc.css.map": "/Portfolio/static/css/main.5ad12abc.css.map",
+    "main.30387be1.js.map": "/Portfolio/static/js/main.30387be1.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.edf399f8.css",
-    "static/js/main.9b787f7f.js"
+    "static/css/main.5ad12abc.css",
+    "static/js/main.30387be1.js"
   ]
 }
