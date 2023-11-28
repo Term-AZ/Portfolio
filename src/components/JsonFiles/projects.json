@@ -28,6 +28,20 @@
             "future_steps":["View swapping optimization", "Function refactoring"]
         },
         {
+            "type":"Hackathon Project: Best use of Circle award",
+            "name": "Outsider Trading",
+            "completion_date":"November 2023",
+            "images":["./images/outsider_trading1.jpg","./images/outsider_trading2.jpg","./images/outsider_trading3.jpg"],
+            "video_links":[],
+            "features":["Functional signup and login system", "User authentication using Session Cookies", "Live updates for users", "User to User interaction (Creating groups with other users)" ,"Data graphics", "Routing", "30+ API Endpoints"],
+            "tech_used":["React", "Python", "BeautifulSoup", "MYSQL", "JavaScript","HTML","CSS","Circle", "InfoBip", "AWS"],
+            "githublink":"https://github.com/Term-AZ/WestHacks10-OutsiderTrading",
+            "date_completed":"November 2023",
+            "description":"Outsider trading gets the trading data of a large set of politicians, showing you their trading history and allowing you to select one or more politicians to follow. After depositing an amount into outsider trading, our tool either lets you manually assess the presented data and invest wherever you want, or automatically follow the actions of the politicians that you have followed. So when they invest in stock x, our tools proportionally invest for you in the same stock. When they pull out of stock y, your bot will pull out of that stock too! This latter feature can be simulated or followed through with actual funds to track the portfolio performance of a certain senator.",
+            "what_am_i":"Hackathon Project",
+            "future_steps":["Connected Crypto wallet to a brockerage api", "User authentication using JWT", "Email updates"]
+        },
+        {
             "type" : "Open Source Contribution",
             "name" : "Forged Alliance Forever",
             "completion_date": "",
