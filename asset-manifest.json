@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.5ad12abc.css",
-    "main.js": "/Portfolio/static/js/main.30387be1.js",
+    "main.js": "/Portfolio/static/js/main.add57459.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pm1.jpg": "/Portfolio/static/media/pm1.24ee9d6b59561e7a7b15.jpg",
+    "static/media/fm2.jpg": "/Portfolio/static/media/fm2.5285c6b6390027e04a1c.jpg",
     "static/media/profile_image.jpg": "/Portfolio/static/media/profile_image.7301e30efdf076aaaea6.jpg",
     "static/media/profile_image2.jpg": "/Portfolio/static/media/profile_image2.8127d169bae126117520.jpg",
     "static/media/bookManagerImage.png": "/Portfolio/static/media/bookManagerImage.b372c16226b1de0a0ffc.png",
@@ -22,11 +24,11 @@
     "static/media/faf_logo.png": "/Portfolio/static/media/faf_logo.abcb43e35722472f8089.png",
     "index.html": "/Portfolio/index.html",
     "main.5ad12abc.css.map": "/Portfolio/static/css/main.5ad12abc.css.map",
-    "main.30387be1.js.map": "/Portfolio/static/js/main.30387be1.js.map",
+    "main.add57459.js.map": "/Portfolio/static/js/main.add57459.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5ad12abc.css",
-    "static/js/main.30387be1.js"
+    "static/js/main.add57459.js"
   ]
 }
