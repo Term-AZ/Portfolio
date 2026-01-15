@@ -39,7 +39,7 @@
             "date_completed":"November 2023",
             "description":"Outsider trading gets the trading data of a large set of politicians, showing you their trading history and allowing you to select one or more politicians to follow. After depositing an amount into outsider trading, our tool either lets you manually assess the presented data and invest wherever you want, or automatically follow the actions of the politicians that you have followed. So when they invest in stock x, our tools proportionally invest for you in the same stock. When they pull out of stock y, your bot will pull out of that stock too! This latter feature can be simulated or followed through with actual funds to track the portfolio performance of a certain senator.",
             "what_am_i":"Hackathon Project",
-            "future_steps":["Connected Crypto wallet to a brockerage api", "User authentication using JWT", "Email updates"]
+            "future_steps":["Connecting Crypto wallet to a brockerage api", "User authentication using JWT", "Email updates"]
         },
         {
             "type" : "Open Source Contribution",
