@@ -1,13 +1,10 @@
 import React from 'react'
 import "./Hello.css"
-import NavBar from "./Navbar"
-import TrackVisibility from 'react-on-screen'
 import { TypeAnimation } from 'react-type-animation'
-import styled from 'styled-components'
-import gh from "./images/GH.png"
 import ln from "./images/linkedin.png"
 import githublogo from "./images/githublogo.png"
 import { Link } from 'react-router-dom'
+import AboutMe from './AboutMe'
 
 const Hello =() =>{
     return(
@@ -26,7 +23,9 @@ const Hello =() =>{
                                 sequence={[
                                     'I am a fourth year software engineering student',
                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                    'I am a developer',
+                                    'I am a full stack developer',
+                                    1000,
+                                    'I am a engineer',
                                     1000,
                                 ]}
                                 wrapper="span"
@@ -70,6 +69,7 @@ const Hello =() =>{
                 </div>
             </div>
         </div>
+        <AboutMe/>
     </div>
     )
 }

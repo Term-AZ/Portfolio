@@ -5,12 +5,15 @@
     gap: 0px;
 }
 img.ProjectProjectImage{
-    height: 300px;
-    width: 30vw;
+    /* max-height: 500px;
+    width: auto; */
+    max-height: 250px;
+    object-fit: fill;
+    max-width:30vw;
 }
 @media screen and (max-width: 1100px){
     img.ProjectProjectImage{
-        height: 30vw;
+        height: fit-content;
         width: 70%;
     }
 }

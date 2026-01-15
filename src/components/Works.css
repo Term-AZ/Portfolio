@@ -17,19 +17,22 @@
 .WorksTitleContainer{
     align-items: center;
     width:50%;
+    height:fit-content
 }
 
 .ProjectContainer{
     display:grid;
     width:90%;
     grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 45vh 45vh;
     grid-gap: 5%;
-    
+    height:fit-content;
+    margin-bottom: 50px;
 }
 
 h1.WorksTitle{
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
     color:white;
 }
 
@@ -39,9 +42,13 @@ a.ProjectLink{
 }
 .MainLink{
     margin-bottom: 30px;
+    height:fit-content
 }
 @media screen and (max-width: 1100px){
     .ProjectContainer{
         display:block;
     }
+
 }
+
+
