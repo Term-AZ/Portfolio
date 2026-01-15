@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.ba8727e9.css",
-    "main.js": "/Portfolio/static/js/main.541f7bdf.js",
+    "main.css": "/Portfolio/static/css/main.5ad12abc.css",
+    "main.js": "/Portfolio/static/js/main.bf78c495.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/pm1.jpg": "/Portfolio/static/media/pm1.24ee9d6b59561e7a7b15.jpg",
+    "static/media/fm2.jpg": "/Portfolio/static/media/fm2.5285c6b6390027e04a1c.jpg",
+    "static/media/profile_image.jpg": "/Portfolio/static/media/profile_image.7301e30efdf076aaaea6.jpg",
+    "static/media/profile_image2.jpg": "/Portfolio/static/media/profile_image2.8127d169bae126117520.jpg",
     "static/media/bookManagerImage.png": "/Portfolio/static/media/bookManagerImage.b372c16226b1de0a0ffc.png",
     "static/media/bookmanager2.png": "/Portfolio/static/media/bookmanager2.3291e16685992e3b35ce.png",
     "static/media/bookmanager3.png": "/Portfolio/static/media/bookmanager3.356f35635e7c3212bb4a.png",
     "static/media/profileImg.jpg": "/Portfolio/static/media/profileImg.842136ca3ae78537423f.jpg",
+    "static/media/augusts_zilakovs_resume.pdf": "/Portfolio/static/media/augusts_zilakovs_resume.4b583a0e78a729968b28.pdf",
     "static/media/gp3.png": "/Portfolio/static/media/gp3.a3ca9a1c36bfab4f9cd5.png",
     "static/media/gp2.png": "/Portfolio/static/media/gp2.e0ed476e2a30652a8dcc.png",
-    "static/media/augusts_zilakovs_resume.pdf": "/Portfolio/static/media/augusts_zilakovs_resume.8c3f24b3fb4204678010.pdf",
     "static/media/gp1.png": "/Portfolio/static/media/gp1.54f4506b5ec97e9e8586.png",
+    "static/media/outsider_trading2.jpg": "/Portfolio/static/media/outsider_trading2.e0538566dc433fe78af8.jpg",
     "static/media/linkedin.png": "/Portfolio/static/media/linkedin.0b9b3d5430ec7fdfcd07.png",
+    "static/media/outsider_trading1.jpg": "/Portfolio/static/media/outsider_trading1.663302da319fe9e8132a.jpg",
     "static/media/pygameJumpKingGame.png": "/Portfolio/static/media/pygameJumpKingGame.e6969fbd1941e7c3708b.png",
+    "static/media/outsider_trading3.jpg": "/Portfolio/static/media/outsider_trading3.dc9e5663eeb337e70e94.jpg",
+    "static/media/supercommander_cover.jpg": "/Portfolio/static/media/supercommander_cover.08d5112b236808024200.jpg",
+    "static/media/faf_logo.png": "/Portfolio/static/media/faf_logo.abcb43e35722472f8089.png",
     "index.html": "/Portfolio/index.html",
-    "main.ba8727e9.css.map": "/Portfolio/static/css/main.ba8727e9.css.map",
-    "main.541f7bdf.js.map": "/Portfolio/static/js/main.541f7bdf.js.map",
+    "main.5ad12abc.css.map": "/Portfolio/static/css/main.5ad12abc.css.map",
+    "main.bf78c495.js.map": "/Portfolio/static/js/main.bf78c495.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba8727e9.css",
-    "static/js/main.541f7bdf.js"
+    "static/css/main.5ad12abc.css",
+    "static/js/main.bf78c495.js"
   ]
 }
