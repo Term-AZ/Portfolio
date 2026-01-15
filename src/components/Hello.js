@@ -24,7 +24,7 @@ const Hello =() =>{
                     <div className='HelloDescription'>
                         <TypeAnimation
                                 sequence={[
-                                    'I am a third year software engineering student',
+                                    'I am a fourth year software engineering student',
                                     1000, // wait 1s before replacing "Mice" with "Hamsters"
                                     'I am a developer',
                                     1000,
