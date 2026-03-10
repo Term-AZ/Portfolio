@@ -1,7 +1,8 @@
 import React from 'react'
 import "./AboutMe.css"
 import pi from "./images/profile_image2.jpg"
-
+import ln from "./images/linkedin.png"
+import githublogo from "./images/githublogo.png"
 
 const AboutMe = ()=>{
     return(
@@ -17,12 +18,35 @@ const AboutMe = ()=>{
                         Who Am I?
                     </h2>
                     <p className='AboutMeDescription'>
-                        My name is Augusts Zilakovs, I am third year software engineering student at the Univeristy of Western Ontario.
+                        My name is Augusts Zilakovs, I am fourth year software engineering student at the Univeristy of Western Ontario.
                         I have a keen interest in creating seamless and user-friendly digital experiences and 
                         I thrive on turning innovative ideas into robust, scalable, and efficient web applications.
                     </p>
                     </div>
+                    <div className='OverGridContainer'>
+                    <div className='HelloSiteGrid'>
+                        <div className='InGridContainer'>
+                            <button border='0'className="ImageButton">
+                                <a href='https://github.com/Term-AZ'>
+                                    <img className='ButtonImage' src={githublogo} alt="GitHubImage">
+                                    
+                                    </img>
+                                </a>
+                            </button>
+                        </div>
+                        <div className='InGridContainer'>
+                            <button className="ImageButton">
+                                <a href='https://www.linkedin.com/in/augusts-zilakovs-118083187/'>
+                                    <img className='ButtonImage' src={ln} alt="LinkedInImage">
+                                    
+                                    </img>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
                 </div>
+                </div>
+                
             </div>
             <div className="skills_container">
                 <div className='languages_container'>

@@ -35,7 +35,7 @@ const Hello =() =>{
                             />
                     </div>
                 </div>
-                <div className='HelloRightContainer'>
+                {/* <div className='HelloRightContainer'>
                     <div className='spaceTaker'></div>
                     
                     <div className="ToLinkContainer">
@@ -66,7 +66,7 @@ const Hello =() =>{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <AboutMe/>

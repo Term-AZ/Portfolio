@@ -21,9 +21,9 @@ const NavBar = () =>{
                     </Link>
                     {isDropVisible && <Dropdown/>}
                 </li>
-                <li className='NavListItem'>
+                {/* <li className='NavListItem'>
                     <Link to='/contact'><button className='NavButton'>Contact</button></Link>
-                </li>
+                </li> */}
                 <li className='NavListItem'>
                     <button className='NavButton'><a className='DownloadButton' href={pdf} target="_blank">Resume</a></button>
                 </li>

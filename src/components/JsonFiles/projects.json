@@ -15,7 +15,7 @@
             "future_steps":["Routing Updates","Better mobile support", "Email verification"]
         },{
             "type":"Project",
-            "name": "Fb2 Book Manager",
+            "name": "FB2 Book Manager",
             "completion_date":"",
             "images":["./images/bookManagerImage.png","./images/bookmanager2.png","./images/bookmanager3.png"],
             "video_links":[],
