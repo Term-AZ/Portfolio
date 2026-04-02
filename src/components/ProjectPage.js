@@ -27,7 +27,7 @@ const ProjectPage = (props) =>{
                         </div>
                         
                         <div className='ProjectDescriptionContainer'>
-                            <p>{project.description}</p>
+                            <p className='base_text'>{project.description}</p>
                         </div>
                         <div className='ProjectFeatures'>
                             <p className='ProjectTitleDefault'>
@@ -36,7 +36,7 @@ const ProjectPage = (props) =>{
                             <ul>
                                 {project.features.map((i)=>{
                                     return(
-                                        <li>{i}</li>
+                                        <li className='base_text'>{i}</li>
                                     )
                                 })}
                             </ul>
@@ -48,13 +48,13 @@ const ProjectPage = (props) =>{
                             <ul>
                                 {project.tech_used.map((i)=>{
                                     return(
-                                        <li>{i}</li>
+                                        <li className='base_text'>{i}</li>
                                     )
                                 })}
                             </ul>
                         </div>
                         <div className = 'ProjectFeatures'>
-                            {project.future_steps.length >0 ? 
+                            {project.future_steps.length > 0 ? 
                                 <div>
                                 <p className='ProjectTitleDefault'>
                                     Future Updates:

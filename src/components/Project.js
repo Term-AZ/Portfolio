@@ -1,15 +1,44 @@
-import React from 'react'
-import "./Project.css"
+import React from "react";
+import "./Project.css";
 
-const Project = (props) =>{
-    return(
-        <div className='ProjectGridObject'>
-            <img className='ProjectProjectImage' src={props.projectImage}></img>
-            <h3 className='ProjectDesc'>{props.projectDesc}</h3>
-            <p className='whatami'>{props.whatamI}</p>
-            <a className='ProjectLink' href={props.projectLink}>{props.projectLink}</a>
-        </div>
-    )
-}
+const Project = ({ projectImage, projectDesc, whatamI, projectLink }) => {
+  const isPrivate =
+    !projectLink ||
+    projectLink.trim() === "" ||
+    projectLink.toUpperCase() === "CURRENTLY PRIVATE";
 
-export default Project
+  const isLogoProject = projectDesc === "Forged Alliance Forever";
+
+  return (
+    <div className="ProjectCard">
+      <div className="ProjectImageWrap">
+        <img
+          className={`ProjectImage ${isLogoProject ? "ProjectImageContain" : ""}`}
+          src={projectImage}
+          alt={projectDesc}
+        />
+      </div>
+
+      <div className="ProjectContent">
+        <h3 className="ProjectTitle">{projectDesc}</h3>
+        <p className="ProjectType">{whatamI}</p>
+
+        {isPrivate ? (
+          <p className="ProjectPrivate">CURRENTLY PRIVATE</p>
+        ) : (
+          <a
+            className="ProjectGithub"
+            href={projectLink}
+            target="_blank"
+            rel="noreferrer"
+            onClick={(e) => e.stopPropagation()}
+          >
+            View Repository
+          </a>
+        )}
+      </div>
+    </div>
+  );
+};
+
+export default Project;

@@ -1,33 +1,46 @@
-import React from 'react'
-import "./Works.css"
-import Project from './Project'
-import bookManagerImage from "./images/bookManagerImage.png"
-import pygameJumpKing from "./images/pygameJumpKingGame.png"
-import { Link, NavLink } from 'react-router-dom'
-import { useEffect } from 'react'
-import data from './JsonFiles/projects.json'
+import React from "react";
+import "./Works.css";
+import Project from "./Project";
+import { Link } from "react-router-dom";
+import data from "./JsonFiles/projects.json";
 
-const Works = () =>{
-    var programs = data.Programs || []
-    var index=0
-    return(
-        <div className='WorksBackground'>
-            <div className='WorksContainer'>
-                <div className='WorksTitleContainer'>
-                    <h1 className ='WorksTitle'>
-                        My Projects and Contributions
-                    </h1>
-                </div>
-                <div className='ProjectContainer'>
-                    {programs.map((i)=>{
-                        return(
-                            <div className="MainLink"><Link  to={'/projects/'+i.name+"/"+index++} style={{ textDecoration: 'none' }}><Project whatamI={i.what_am_i} projectImage={require(`${i.images[0]}`)} projectDesc={i.name} projectLink={i.githublink}></Project></Link></div>
-                        )
-                    })}
-                </div> 
-            </div>
+const Works = () => {
+  const programs = data.Programs || [];
+
+  return (
+    <section className="WorksBackground">
+      <div className="WorksContainer">
+        <div className="WorksTitleContainer">
+          <h1 className="WorksTitle">My Projects and Contributions</h1>
         </div>
-    )
-}
 
-export default Works
+        <div className="ProjectContainer">
+          {programs.map((project, index) => {
+            const imagePath =
+              project.images?.[0] || "./images/default_project_image.png";
+
+            return (
+              <div className="MainLink" key={`${project.name}-${index}`}>
+                <Link
+                  to={`/projects/${project.name}/${index}`}
+                  className="ProjectCardLink"
+                >
+                  <div className="ProjectCardShell">
+                    <Project
+                      whatamI={project.what_am_i}
+                      projectImage={require(`${imagePath}`)}
+                      projectDesc={project.name}
+                      projectLink={project.githublink}
+                    />
+                  </div>
+                </Link>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Works;

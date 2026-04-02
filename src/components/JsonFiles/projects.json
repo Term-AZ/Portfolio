@@ -1,7 +1,7 @@
 {
     "Programs":[
         {
-            "type":"Capstone Project",
+            "type":"Project",
             "name": "Court Sense",
             "completion_date":"April 2026",
             "images":["./images/cs1.png","./images/cs2.png","./images/cs3.png", "./images/cs4.png", "./images/cs5.png"],
