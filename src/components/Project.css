@@ -10,6 +10,8 @@ img.ProjectProjectImage{
     max-height: 250px;
     object-fit: fill;
     max-width:30vw;
+    width: auto;
+    height:auto;
 }
 @media screen and (max-width: 1100px){
     img.ProjectProjectImage{
@@ -37,4 +39,5 @@ p.whatami{
     color:white;
     margin-bottom:10px;
     margin-top: 0px;
+    text-align: center;
 }

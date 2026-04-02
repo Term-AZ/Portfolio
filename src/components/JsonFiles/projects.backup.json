@@ -16,20 +16,6 @@
         },
         {
             "type":"Project",
-            "name": "Baja Inventory Manager",
-            "completion_date":"In Progress",
-            "images":["./images/cs1.png","./images/cs2.png","./images/cs3.png", "./images/cs4.png", "./images/cs5.png"],
-            "video_links":[],
-            "features":[],
-            "tech_used":["React", "Nodejs", "DOCKER", "MySql", "JavaScript","HTML","CSS"],
-            "githublink":"CURRENTLY PRIVATE",
-            "date_completed":"April 2026",
-            "description":"A inventory and file management system for the Baja Racing Club at Western University. The software allows club members to request new parts for team leads to order and to download important team documents such as CAD files. Allows for executive to upload new team documents with a version control system for simple downloads for team members.",
-            "what_am_i":"Inventory and File Management System",
-            "future_steps":[]
-        },
-        {
-            "type":"Project",
             "name": "Group Pay",
             "completion_date":"September 2023",
             "images":["./images/cs1.png","./images/cs2.png","./images/cs3.png", "./images/cs4.png","./images/cs5.png"],
@@ -81,6 +67,20 @@
             "date_completed":"",
             "description":"Forged Alliacne Forever is a community made and driven client for the 2007 real time strategy game Supreme Commander Forged Alliance",
             "what_am_i":"Game Client",
+            "future_steps":[]
+        },
+        {
+            "type":"Project",
+            "name": "Jump King Pygame Remake",
+            "completion_date":"",
+            "images":["./images/pygameJumpKingGame.png"],
+            "video_links":["https://www.youtube.com/embed/Q1y4anQvirg?si=oDAPFNaJtnUVp7Gw"],
+            "features":["Tiled map support", "Character customization","Basic physics", "Level selection" ,"Vertical scrolling"],
+            "tech_used":["Python","Pygame","Tiled","Github"],
+            "githublink":"https://github.com/Term-AZ/PythonJumpKingRemake",
+            "date_completed":"April 2023",
+            "description":"This is a remake of the popular video game 'Jump King' using Pygame as the game engine. ",
+            "what_am_i":"Video Game",
             "future_steps":[]
         }
     ]
