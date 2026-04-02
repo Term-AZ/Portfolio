@@ -1,6 +1,20 @@
 {
     "Programs":[
         {
+            "type":"Capstone Project",
+            "name": "Court Sense",
+            "completion_date":"April 2026",
+            "images":["./images/gp1.png","./images/gp2.png","./images/gp3.png"],
+            "video_links":[],
+            "features":["Player tracking", "Player movement visualization", "Player movement data export", "Automatic Youtube Upload", "Player Data Visualization", "Player Data Export"],
+            "tech_used":["React", "Python", "NextJS", "SQLite", "JavaScript","HTML","CSS","DOCKER", "Typescript", "SharcNet", "SAM2", "FireBase"],
+            "githublink":"CURRENTLY PRIVATE",
+            "date_completed":"April 2026",
+            "description":"Court Sense is a homography based player localization software for 3x3 basketball broadcast footage. Court Sense takes in a video of a 3x3 basketball game and outputs the location of each player on the court throughout the video. The software uses a homography based approach to player localization, which allows for accurate player tracking even in cases where players are occluded or partially visible. The software also includes features for visualizing player movement and exporting player movement data for further analysis.",
+            "what_am_i":"Homography-Based Player Localization in 3x3 Basketball Broadcast Footage",
+            "future_steps":[]
+        },
+        {
             "type":"Project",
             "name": "Group Pay",
             "completion_date":"September 2023",
