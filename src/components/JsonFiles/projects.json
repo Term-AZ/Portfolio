@@ -18,7 +18,7 @@
             "type":"Project",
             "name": "Baja Inventory Manager",
             "completion_date":"In Progress",
-            "images":["./images/cs1.png","./images/cs2.png","./images/cs3.png", "./images/cs4.png", "./images/cs5.png"],
+            "images":[],
             "video_links":[],
             "features":[],
             "tech_used":["React", "Nodejs", "DOCKER", "MySql", "JavaScript","HTML","CSS"],
